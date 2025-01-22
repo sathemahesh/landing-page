@@ -3,7 +3,8 @@ import React from 'react'
 const Header = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            
+            <nav className="navbar navbar-expand-lg bg-body-tertiary"style={{backgroundColor: 'red'}}>
                 <div className="container">
                     <a className="navbar-brand" href="#">Navbar</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,9 +19,7 @@ const Header = () => {
                                 <a className="nav-link" href="#">Link</a>
                             </li>
                            
-                            <li className="nav-item">
-                                <a className="nav-link disabled" aria-disabled="true">Disabled</a>
-                            </li>
+                         
                         </ul>
                        
                     </div>

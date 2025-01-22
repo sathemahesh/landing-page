@@ -4,10 +4,11 @@ import Hero from './Hero'
 
 const Banner = () => {
   return (
-    <div style={{
-       
-        background: "linear-gradient(to right, #3A3089, #C83F74)"
-    }}>
+    <div
+   className='banner__main'
+    
+
+    >
         <Header/>
         <Hero/>
     </div>

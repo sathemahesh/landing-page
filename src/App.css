@@ -49,3 +49,9 @@
 .card__shadow {
   box-shadow: 0 0 20px #9e9e9e45 !important;
 }
+
+.banner__main {
+  background-image: url(https://htmldesigntemplates.com/html/eventiz/images/pexels-wendy-wei-1190297.jpg);
+  background: linear-gradient(to right, #3A3089, #C83F74);
+  
+}
