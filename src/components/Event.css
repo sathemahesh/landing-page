@@ -14,3 +14,16 @@
     text-align: left;
     font-weight: 600;
 }
+
+/* Event.css */
+@media (max-width: 768px) {
+    .style2 {
+        font-size: 1.25rem;
+    }
+    .background_image {
+        padding: 20px;
+    }
+    .card__shadow {
+        margin-bottom: 15px;
+    }
+}

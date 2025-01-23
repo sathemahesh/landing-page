@@ -1,0 +1,21 @@
+.h4_font
+{
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    text-transform: capitalize;
+    margin: 0 0 1rem;
+     color: #333369; 
+    line-height: 1.22em;
+    text-align: left  !important;
+}
+
+.para
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    text-align: left  !important;
+}
