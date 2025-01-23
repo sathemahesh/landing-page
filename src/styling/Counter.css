@@ -1,0 +1,20 @@
+.font_style
+{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    font-weight: 400;
+    color: #707070;
+    
+}
+
+font_style1
+{
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    text-transform: capitalize;
+    margin: 0 0 1rem;
+    color: #333369;
+    line-height: 1.22em;
+}

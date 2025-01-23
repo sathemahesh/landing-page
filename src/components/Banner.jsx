@@ -11,6 +11,7 @@ const Banner = () => {
     >
         <Header/>
         <Hero/>
+        
     </div>
   )
 }
