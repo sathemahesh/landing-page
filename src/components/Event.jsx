@@ -2,15 +2,15 @@ import React from 'react';
 import { BsCarFrontFill } from "react-icons/bs";
 import { FaFlag } from "react-icons/fa6";
 import { IoMdSettings } from "react-icons/io";
-import './Event.css'
+import '../styling/Event.css';
 
 const Event = () => {
   return (
     <div className="container text-center py-5 background_image">
       <div className="row">
         {/* Cards Section */}
-        <div className="col-lg-4 d-flex justify-content-center align-items-center "> 
-          <div className="row flex-lg-column"> 
+        <div className="col-lg-4 d-flex justify-content-center align-items-center ">
+          <div className="row flex-lg-column">
             <div className="col-lg-12 mb-3 mb-lg-3">
               <div className="card card__shadow">
                 <div className="card-body">
@@ -38,7 +38,7 @@ const Event = () => {
           </div>
         </div>
 
-        <div className="col-lg-4 d-flex justify-content-center align-items-center " style={{marginTop: "10px"}}>
+        <div className="col-lg-4 d-flex justify-content-center align-items-center " style={{ marginTop: "10px" }}>
           <div className="card card__shadow">
             <div className="card-body">
               <FaFlag className="text-danger fs-1" />
@@ -57,8 +57,11 @@ const Event = () => {
           <p className="style2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ip suspendisse ultrices gravida. Risus commodo
           </p>
-          <button className="btn btn-outline-danger">Join event</button>
+          <div className="button-container">
+            <button className="nir-btn">Join event</button>
+          </div>
         </div>
+
       </div>
     </div>
   );

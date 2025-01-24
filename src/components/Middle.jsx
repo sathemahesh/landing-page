@@ -2,7 +2,7 @@ import React from 'react';
 import image_2 from "../assets/image_2.jpg";
 import image_3 from "../assets/image_3.jpg";
 import image_4 from "../assets/image_4.jpg";
-import './Middle.css';
+import '../styling/Middle.css';
 function Middle() {
     return (
         <div className="container text-center">
@@ -14,7 +14,9 @@ function Middle() {
                     <p className="mb-4  h4_font  para">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto necessitatibus mollitia sunt deleniti ut, qui debitis quaerat aut officia dolore, fuga maiores magnam, corporis quisquam. Vel, reiciendis magnam? Possimus, asperiores.
                     </p>
-                    <button className="btn btn-primary">Discover Now</button>
+                    <div className="button-container">
+        <button className="nir-btn">Join event</button>
+    </div>
                 </div>
                 
                 {/* Right Section */}

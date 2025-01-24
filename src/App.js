@@ -6,6 +6,10 @@ import Event from './components/Event';
 import Middle from './components/Middle';
 import Counter from './components/Counter';
 // import TimeBaner from './components/TimeBaner';
+  import Expected from './components/Expected';
+import Knowladge from './components/Knowladge';
+
+
 function App() {
   return (
     <div className="App">
@@ -15,8 +19,10 @@ function App() {
       
       <Middle/>
       <Counter />
-
-     
+      <Expected/>
+      
+      <Knowladge/>
+      
     </div>
   );
 }

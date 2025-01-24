@@ -2,7 +2,7 @@ import React from 'react';
 import '../styling/Counter.css';
 function Counter() {
   return (
-    <div className="container mt-5 border mb-5">
+    <div className="container mt-5  mb-5">
       <div className="row text-center">
         {/* Counter 1 */}
         <div className="col-lg-3 col-md-6 col-sm-6 mb-4">
