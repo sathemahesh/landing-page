@@ -8,8 +8,14 @@ import Counter from './components/Counter';
 // import TimeBaner from './components/TimeBaner';
   import Expected from './components/Expected';
 import Knowladge from './components/Knowladge';
+import Plans from './components/Plans';
+import Events from './components/Events';
 
+import Eventize from './components/Eventize';
 
+import Sponser from './components/Sponser';
+import Articles from './components/Articles';
+import Location from './components/Location';
 function App() {
   return (
     <div className="App">
@@ -20,9 +26,13 @@ function App() {
       <Middle/>
       <Counter />
       <Expected/>
-      
       <Knowladge/>
-      
+      <Plans />
+      <Events />
+      <Eventize />
+      <Sponser />
+      <Articles />
+      <Location />
     </div>
   );
 }

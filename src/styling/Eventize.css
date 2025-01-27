@@ -1,0 +1,38 @@
+.test
+{
+    text-align: left;
+    margin-top: 20px;
+    color: #F8669E !important;
+    font-size: 21px;
+}
+
+.test1
+{
+    text-align: left;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    text-transform: capitalize;
+    margin: 0 0 1rem;
+    color: #333369;
+    line-height: 1.22em;
+    font-size: 50px;
+}
+
+.even
+{
+    text-align: left;
+    font-size: 50px;
+    color:#707070;
+}
+.para1
+{
+     
+    color: #F8669E !important;
+
+    
+}
+
+
+.my-paragraph {
+    margin-top: 70px;
+}

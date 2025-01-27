@@ -1,0 +1,34 @@
+.nir-btn, .nir-btn-black {
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 25px;
+    text-transform: capitalize;
+    transition: all ease-in-out 0.5s;
+    background: #F8669E;
+    color: #fff;
+    display: inline-block;
+    border-radius: 0px;
+    border: none;
+    box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+
+.text-colour
+{
+    color:#707070;
+}
+
+/* Default styling for larger screens */
+.text-start1 {
+    text-align: left;
+  }
+  
+  /* Media query for smaller devices */
+  @media (max-width: 768px) {
+    .text-start2 {
+      text-align: center;
+    }
+  }
+  

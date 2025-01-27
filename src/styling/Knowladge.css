@@ -30,3 +30,52 @@
     width: 100%;
   }
   
+
+  {/*   css  */}
+
+
+
+
+  
+/* .img-fluid
+{
+    height: 250px;
+    width: 250px;
+} */
+
+.card-style1
+{
+   text-align: center;
+   color: #F8669E !important;
+   margin-bottom: 0%;
+   line-height: 1.2;
+}
+
+/* Add more space between images in general */
+img {
+    margin-bottom: 15px; /* Adjust this value to your liking */
+  }
+  
+  /* If needed, adjust margin for the right-side image */
+  img.right-image {
+    margin-top: 75px;
+  }
+
+  .btn_style
+  {
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 25px;
+    text-transform: capitalize;
+    transition: all ease-in-out 0.5s;
+    background: #F8669E;
+    color: #fff;
+    display: inline-block;
+    border-radius: 0px;
+    border: none;
+    box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    
+  }
