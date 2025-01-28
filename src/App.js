@@ -16,6 +16,7 @@ import Eventize from './components/Eventize';
 import Sponser from './components/Sponser';
 import Articles from './components/Articles';
 import Location from './components/Location';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
@@ -33,6 +34,7 @@ function App() {
       <Sponser />
       <Articles />
       <Location />
+      <Footer />
     </div>
   );
 }

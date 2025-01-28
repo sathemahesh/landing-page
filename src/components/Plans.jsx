@@ -1,16 +1,16 @@
 import React from 'react';
 import '../styling/Plan.css';
-
+import price from '../assets/price.png'
 function Plans() {
   return (
     <div className="container py-5">
-      <h2 className="mb-4 text-start1 text-start2" style={{ fontWeight: "bold", fontSize: "2rem" }}>
+      <h2 className="mb-4 " style={{ textAlign:"left", fontSize:"56px",  }}>
         Explore Flexible Our Pricing
       </h2>
       <div className="mb-4 text-start1 text-start2" style={{ fontWeight: "bold", fontSize: "2rem" }}>
-        <span style={{ color: "#707070" }}>PLANS</span>
+        <span style={{ color: "#707070" ,fontSize:"56px" }}>PLANS</span>
       </div>
-
+       
       <div className="row d-flex justify-content-center">
         {/* Basic Ticket */}
         <div className="col-md-4 col-sm-8 col-10 mb-3">

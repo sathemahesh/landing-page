@@ -7,15 +7,24 @@ import img9 from "../assets/img9.jpg";
 import img10 from "../assets/img10.jpg";
 import img11 from "../assets/img11.jpg";
 
+const images = [
+  { src: img6, style: { width: "327px", height: "409px", objectFit: "cover" } },
+  { src: img7, style: { maxWidth: "100%", height: "auto" } },
+  { src: img8, style: { maxWidth: "100%", height: "auto" } },
+  { src: img9, style: { maxWidth: "100%", height: "auto" } },
+  { src: img10, style: { maxWidth: "100%", height: "auto" } },
+  { src: img11, style: { width: "327px", height: "409px", objectFit: "cover" } }
+];
+
 function Knowladge() {
   return (
     <div className="container">
       {/* Header Section */}
       <div className="row card-style1 text-center">
         <div className="col">
-          <h5 className="heading card-style1">Featured Speaker</h5>
-          <h1 className="heading2 card-style1">Experience Speaker With</h1>
-          <h1 className="heading3 card-style1">Knowledge</h1>
+          <h5 className="heading card-style1" style={{ fontSize: "21px" }}>Featured Speaker</h5>
+          <h1 className="card-style1" style={{ fontSize: "56px", color: "#333369" }}>Experience Speaker With</h1>
+          <h1 className="heading3 card-style1" style={{ fontSize: "56px" }}>Knowledge</h1>
         </div>
       </div>
 
@@ -24,66 +33,36 @@ function Knowladge() {
         {/* Left Image */}
         <div className="col-12 col-md-3 d-flex justify-content-center align-items-center flex-column mb-3">
           <img
-            src={img6}
+            src={images[0].src}
             alt="Speaker"
             className="img-fluid"
-            style={{
-              width: "327px",
-              height: "409px",
-              objectFit: "cover",
-            }}
+            style={images[0].style}
           />
         </div>
 
         {/* Center Images */}
         <div className="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center mb-3">
           <div className="row w-100">
-            <div className="col-12 col-sm-6 mb-3 d-flex justify-content-center">
-              <img
-                src={img7}
-                alt="Speaker"
-                className="img-fluid"
-                style={{ maxWidth: "100%", height: "auto" }}
-              />
-            </div>
-            <div className="col-12 col-sm-6 mb-3 d-flex justify-content-center">
-              <img
-                src={img8}
-                alt="Speaker"
-                className="img-fluid"
-                style={{ maxWidth: "100%", height: "auto" }}
-              />
-            </div>
-            <div className="col-12 col-sm-6 mb-3 d-flex justify-content-center">
-              <img
-                src={img9}
-                alt="Speaker"
-                className="img-fluid"
-                style={{ maxWidth: "100%", height: "auto" }}
-              />
-            </div>
-            <div className="col-12 col-sm-6 mb-3 d-flex justify-content-center">
-              <img
-                src={img10}
-                alt="Speaker"
-                className="img-fluid"
-                style={{ maxWidth: "100%", height: "auto" }}
-              />
-            </div>
+            {images.slice(1, 5).map((image, index) => (
+              <div key={index} className="col-12 col-sm-6 mb-3 d-flex justify-content-center">
+                <img
+                  src={image.src}
+                  alt="Speaker"
+                  className="img-fluid"
+                  style={image.style}
+                />
+              </div>
+            ))}
           </div>
         </div>
 
         {/* Right Image */}
         <div className="col-12 col-md-3 d-flex justify-content-center align-items-center flex-column mb-3">
           <img
-            src={img11}
+            src={images[5].src}
             alt="Speaker"
             className="img-fluid"
-            style={{
-              width: "327px",
-              height: "409px",
-              objectFit: "cover",
-            }}
+            style={images[5].style}
           />
         </div>
       </div>

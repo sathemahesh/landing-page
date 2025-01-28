@@ -12,7 +12,8 @@
 .style2
 {
     text-align: left;
-    font-weight: 600;
+    font:36px;
+    color:#333369;
 }
 
 /* Event.css */
@@ -59,11 +60,20 @@
     font-size: 16px; /* Adjust font size */
     border: none; /* Remove border if not needed */
     border-radius: 5px; /* Optional: Rounded corners */
-    background-color: #007bff; /* Optional: Button background color */
+    background-color: #707070; /* Optional: Button background color */
     color: white; /* Optional: Button text color */
     cursor: pointer; /* Adds a pointer cursor on hover */
 }
 
 .nir-btn:hover {
     background-color: #0056b3; /* Optional: Darker background on hover */
+}
+
+.general
+{
+    color: #707070 !important;
+}
+.general1
+{
+    color: #333369;
 }
