@@ -9,10 +9,10 @@ function Middle() {
             <div className="row d-flex align-items-center justify-content-between">
                 {/* Left Section */}
                 <div className="col-lg-5 col-md-6 col-sm-12 pe-lg-4 mb-4">
-                    <div> <h4 className="h4_font" style={{color:"#707070", fontSize:"21px"}}>Conference Organisation</h4></div>
-                    <div><h1 className="h4_font" style={{color:"#333369", fontSize:"56px"}}>Conference, Seminars &</h1></div>
-                    <div className=""> <h1 className="text-left" style={{textAlign:"left",color:"#707070" , fontSize:"56px"}}> Events</h1></div>
-                    <p className="mb-4  h4_font  para"style={{color:"#707070", fontSize:"16px"}}>
+                    <div> <h4 className="h4_font para" style={{color:"#707070", fontSize:"21px"}}>Conference Organisation</h4></div>
+                    <div><h1 className="h4_font para" style={{color:"#333369", fontSize:"56px"}}>Conference, Seminars &</h1></div>
+                    <div className=""> <h1 className="text-left para" style={{textAlign:"left",color:"#707070" , fontSize:"56px"}}> Events</h1></div>
+                    <p className="mb-4  h4_font  para"style={{color:"#707070", fontSize:"21px"}}>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto necessitatibus mollitia sunt deleniti ut, qui debitis quaerat aut officia dolore, fuga maiores magnam, corporis quisquam. Vel, reiciendis magnam? Possimus, asperiores.
                     </p>
                     <div className="button-container">

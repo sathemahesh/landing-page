@@ -1,24 +1,25 @@
 import React from 'react';
 import '../styling/Plan.css';
-import price from '../assets/price.png'
+import price from '../assets/price.png';
+
 function Plans() {
   return (
     <div className="container py-5">
-      <h2 className="mb-4 " style={{ textAlign:"left", fontSize:"56px",  }}>
+      <h2 className="mb-4" >
         Explore Flexible Our Pricing
       </h2>
       <div className="mb-4 text-start1 text-start2" style={{ fontWeight: "bold", fontSize: "2rem" }}>
-        <span style={{ color: "#707070" ,fontSize:"56px" }}>PLANS</span>
+        <span >PLANS</span>
       </div>
-       
+
       <div className="row d-flex justify-content-center">
         {/* Basic Ticket */}
-        <div className="col-md-4 col-sm-8 col-10 mb-3">
+        <div className="col-md-4 col-sm-12 col-12 mb-3">
           <div className="card text-center shadow border-0" style={{ borderRadius: "15px", width: "100%", height: "100%" }}>
-            <div className="card-body text-colour ">
-              <h4 className="card-title ">Basic Ticket</h4>
+            <div className="card-body text-colour">
+              <h4 className="card-title">Basic Ticket</h4>
               <p className="text-muted">Standard Package</p>
-              <h3 className=" fw-bold mb-3 text-colour">$39.99</h3>
+              <h3 className="fw-bold mb-3 text-colour">$39.99</h3>
               <ul className="list-unstyled mb-4 text-colour" style={{ lineHeight: "2" }}>
                 <li>Second Balcony Seat</li>
                 <li>Snack & Softdrink</li>
@@ -36,11 +37,8 @@ function Plans() {
         </div>
 
         {/* Silver Ticket */}
-        <div className="col-md-4 col-sm-8 col-10 mb-3">
-          <div
-            className="card text-center shadow border-0"
-            style={{ backgroundColor: "#333369", color: "white", borderRadius: "15px", width: "100%", height: "100%" }}
-          >
+        <div className="col-md-4 col-sm-12 col-12 mb-3">
+          <div className="card text-center shadow border-0" style={{ backgroundColor: "#333369", color: "white", borderRadius: "15px", width: "100%", height: "100%" }}>
             <div className="card-body text-light">
               <h4 className="card-title text-light">Silver Ticket</h4>
               <p className="text-light">Pro Package</p>
@@ -63,7 +61,7 @@ function Plans() {
         </div>
 
         {/* Gold Ticket */}
-        <div className="col-md-4 col-sm-8 col-10 mb-3 ">
+        <div className="col-md-4 col-sm-12 col-12 mb-3">
           <div className="card text-center shadow border-0" style={{ borderRadius: "15px", width: "100%", height: "100%" }}>
             <div className="card-body">
               <h4 className="card-title text-colour">Gold Ticket</h4>

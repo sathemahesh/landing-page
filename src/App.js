@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <Banner/>
-      {/* <TimeBaner /> */}
+     
       <Event/>
       
       <Middle/>

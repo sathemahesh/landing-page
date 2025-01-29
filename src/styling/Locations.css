@@ -8,5 +8,24 @@
 
 
 
+.heading-style
+{
+    font-size: 56px;
+}
+.heading-style1
+{
+    font-size: 21px;
+}
 
+@media(max-width:786px)
+{
+    .log-style
+    {
+        min-height: 80px;
+    }
 
+    .heading-style
+    {
+         font-size: 21px;
+    }
+}

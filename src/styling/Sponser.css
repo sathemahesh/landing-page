@@ -1,0 +1,20 @@
+
+.heading
+{
+    font-size: 21px;
+}
+
+heading1
+{
+    font-size: 56px;
+}
+
+
+@media(max-width:786px)
+{
+    .title_wrap
+    {
+        font-size: 28px;
+
+    }
+}

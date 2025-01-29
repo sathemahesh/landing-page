@@ -13,9 +13,9 @@ function Events() {
     <div className="container mb-5">
       <div className="row text-center mb-4">
         <div className="col-12">
-          <h6 className="h6-style style1" style={{fontSize:"21px", fontFamily:"sans-serif", }}>Event Gallery</h6>
-          <h1 className="h1-style "style={{fontSize:"56px", fontFamily:"sans-serif", }}>Beautiful Snapshot Of Recent</h1>
-          <h1 className="h1-colour"style={{fontSize:"56px", fontFamily:"sans-serif", }}>Events</h1>
+          <h6 className="h6-style style1" style={{ fontFamily:"sans-serif", }}>Event Gallery</h6>
+          <h1 className="h1-style "style={{ fontFamily:"sans-serif", }}>Beautiful Snapshot Of Recent</h1>
+          <h1 className="h1-colour"style={{ fontFamily:"sans-serif", }}>Events</h1>
         </div>
       </div>
 

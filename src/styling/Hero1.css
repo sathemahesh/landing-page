@@ -1,0 +1,5 @@
+@media screen and (min-width: 1024px) {
+    .text-container {
+        text-align: left !important;
+    }
+}

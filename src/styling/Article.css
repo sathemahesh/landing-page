@@ -2,11 +2,13 @@
 {
    
     color:#707070;
+    font-size: 26px;
 }
 
 .s2
 {
     color:#707070;
+    font-size: 56px;
 }
 
 .card-text
@@ -18,5 +20,13 @@
 .card-link
 {
     text-align: left !important;
+}
+
+@media(max-width:786px)
+{
+    .s2-wraper
+    {
+        font-size: 26px;
+    }
 }
 

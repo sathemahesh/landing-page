@@ -8,8 +8,8 @@ function Articles() {
         <div className="container mb-5">
             <div className="row">
                 <div className="col text-center">
-                    <h5 className="s1 flex-center" style={{ fontSize: "21px", fontFamily: "sans-serif", color: "#333369" }}>Our News & Articles</h5>
-                    <h1 className="s2" style={{ fontSize: "56px", fontFamily: "sans-serif" }}>Our News & Articles</h1>
+                    <h5 className="s1 flex-center s2-wraper" style={{  fontFamily: "sans-serif", color: "#333369" }}>Our News & Articles</h5>
+                    <h1 className="s2 s2-wraper" style={{  fontFamily: "sans-serif" }}>Our News & Articles</h1>
                 </div>
             </div>
 

@@ -57,14 +57,18 @@ function Expected() {
 
     return (
         <div className="container mb-5">
-            <div className="mb-5 text-center text-lg-start">
-                <h4 className="Event"style={{ fontSize:"21px"}}>Event Conference Organisation</h4>
-                <h2 className=" mb-0  h2-style">
-                    <div className="mb-3"><span className=""style={{color:"#333369", fontSize:"56px"}}>List of planned Events thay are</span></div>
-                     <div> <span className=""style={{color:"#707070",fontSize:"56px"}}>Expected</span></div>
-                   
-                </h2>
-            </div>
+           <div className="mb-5 text-center text-lg-start">
+    <h4 className="Event" style={{ fontSize: "21px" }}>Event Conference Organisation</h4>
+    <h2 className="mb-0 h2-style">
+        <div className="mb-3 mb-sm-4" >
+            <span className="Event" style={{ color: "#333369", fontSize: "56px" }}>List of planned Events thay are</span>
+        </div>
+        <div style={{ paddingTop: "10px" }}>
+            <span className="Event" style={{ color: "#707070", fontSize: "56px" }}>Expected</span>
+        </div>
+    </h2>
+</div>
+
 
             {events.map((event, index) => (
                 <div key={index} className="event-card mb-4 shadow-sm">

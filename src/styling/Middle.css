@@ -12,10 +12,8 @@
 .para
 {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+   
+    
     unicode-bidi: isolate;
     text-align: left  !important;
 }
@@ -40,21 +38,38 @@
  
 
 .button-container {
-    display: flex; /* Enables flexbox */
-    justify-content: flex-start; /* Aligns the button to the left */
-    margin-top: 15px; /* Optional: Adds space above the button */
+    display: flex;
+  
+    margin-top: 15px; 
 }
 
 .nir-btn {
     padding: 10px 20px; /* Adjust padding for the button */
     font-size: 16px; /* Adjust font size */
     border: none; /* Remove border if not needed */
-    border-radius: 5px; /* Optional: Rounded corners */
-    background-color:#F8669E; /* Optional: Button background color */
-    color: white; /* Optional: Button text color */
-    cursor: pointer; /* Adds a pointer cursor on hover */
+    border-radius: 5px; 
+    background-color:#F8669E; 
+    color: white; 
+    cursor: pointer; 
 }
 
 .nir-btn:hover {
-    background-color: #0056b3; /* Optional: Darker background on hover */
+    background-color: #0056b3; 
 }
+
+
+
+@media (max-width: 768px) {
+    .para {
+      text-align: center !important ; 
+      font-size: 21px !important;
+
+    }
+  
+    .button-container {
+      display: flex;
+      justify-content: center; 
+      margin-top: 20px; 
+    }
+  }
+  

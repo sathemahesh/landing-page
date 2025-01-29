@@ -19,12 +19,12 @@ const images = [
 function Knowladge() {
   return (
     <div className="container">
-      {/* Header Section */}
+      
       <div className="row card-style1 text-center">
         <div className="col">
-          <h5 className="heading card-style1" style={{ fontSize: "21px" }}>Featured Speaker</h5>
-          <h1 className="card-style1" style={{ fontSize: "56px", color: "#333369" }}>Experience Speaker With</h1>
-          <h1 className="heading3 card-style1" style={{ fontSize: "56px" }}>Knowledge</h1>
+          <h5 className="heading card-style1" >Featured Speaker</h5>
+          <h1 className="card-style1" style={{  color: "#333369" }}>Experience Speaker With</h1>
+          <h1 className="heading3 card-style1" >Knowledge</h1>
         </div>
       </div>
 

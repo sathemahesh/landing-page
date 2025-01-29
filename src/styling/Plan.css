@@ -32,3 +32,27 @@
     }
   }
   
+
+
+
+
+
+
+  /* Default styling for larger screens */
+h2 {
+  font-size: 56px;
+  text-align: left;
+}
+
+/* Media query for small screens (max-width 768px) */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 28px;  /* Adjust font size for smaller screens */
+    text-align: center;  /* Center the paragraph */
+  }
+
+  /* Optionally, you can adjust other elements like spacing or alignment */
+  .text-start1, .text-start2 {
+    text-align: center;  /* Center other related elements */
+  }
+}

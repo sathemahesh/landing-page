@@ -60,3 +60,33 @@ body{
     transform: translateY(-5px); 
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); 
 }
+
+
+/* For screens smaller than 768px */
+@media (max-width: 767px) {
+    /* Adjust the font size of the first paragraph */
+    .Event {
+        font-size: 28px !important;
+    }
+
+    /* Center the speaker image and name on smaller screens */
+    .event-card .col-lg-3.col-md-12.d-flex.align-items-center {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .event-card .col-lg-3.col-md-12.d-flex.align-items-center .p-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .event-card .col-lg-3.col-md-12.d-flex.align-items-center img {
+        margin-bottom: 10px;
+    }
+
+    .event-card .col-lg-3.col-md-12.d-flex.align-items-center h6 {
+        margin-bottom: 5px;
+    }
+}
