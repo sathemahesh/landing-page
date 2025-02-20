@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Bamboo Bucket",
+    "price": 32.0,
+    "image": "product1.png",
+    "link": "add-to-cart",
+    "dsc": "sdfsdfsd lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "id": 2,
+    "name": "Ladies Tops",
+    "original_price": 21.0,
+    "discounted_price": 18.0,
+    "image": "product2.png",
+    "link": "add-to-cart",
+    "dsc": "sdfsdfr  lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "id": 3,
+    "name": "Lewis Tshirt",
+    "price": 28.0,
+    "image": "product3.png",
+    "link": "add-to-cart",
+    "dsc": " 345435 lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "id": 4,
+    "name": "Leather Bag",
+    "price": 45.0,
+    "image": "product4.png",
+    "link": "add-to-cart",
+    "dsc": " lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "id": 5,
+    "name": "London Tshirt",
+    "price": 15.0,
+    "image": "product5.png",
+    "link": "add-to-cart",
+    "dsc": " lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "id": 6,
+    "name": "Yellow Sofa Set",
+    "price": 89.0,
+    "image": "product6.png",
+    "link": "add-to-cart",
+    "dsc": " lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  }
+]

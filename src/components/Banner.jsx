@@ -5,10 +5,7 @@ import Hero from './Hero'
 const Banner = () => {
   return (
     <div
-   className='banner__main'
-    
-
-    >
+   className='banner__main' >
         <Header/>
         <Hero/>
         

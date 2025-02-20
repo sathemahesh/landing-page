@@ -8,7 +8,7 @@ import { MdOutlinePhone } from "react-icons/md";
 import { CiMail } from "react-icons/ci";
 function Footer() {
     return (
-        <footer className=" text-light py-5" style={{ backgroundColor: " #333369" }}>
+        <footer className=" text-light py-5 " style={{ backgroundColor: " #333369" }}>
             <div className="container">
                 <div className="row ">
 

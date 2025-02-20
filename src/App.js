@@ -6,7 +6,7 @@ import Event from './components/Event';
 import Middle from './components/Middle';
 import Counter from './components/Counter';
 // import TimeBaner from './components/TimeBaner';
-  import Expected from './components/Expected';
+import Expected from './components/Expected';
 import Knowladge from './components/Knowladge';
 import Plans from './components/Plans';
 import Events from './components/Events';
@@ -17,24 +17,43 @@ import Sponser from './components/Sponser';
 import Articles from './components/Articles';
 import Location from './components/Location';
 import Footer from './components/Footer';
+import Products from './components/Products'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from './components/Header'
+import ProductDescription from './components/ProductDescription';
 function App() {
   return (
     <div className="App">
-      <Banner/>
-     
-      <Event/>
-      
-      <Middle/>
-      <Counter />
-      <Expected/>
-      <Knowladge/>
-      <Plans />
-      <Events />
-      <Eventize />
-      <Sponser />
-      <Articles />
-      <Location />
-      <Footer />
+      <Router>
+        <Header />
+        <Routes>
+
+          <Route path='/' element={
+            <>
+              <Middle />
+              <Counter />
+              <Expected />
+              <Knowladge />
+              <Plans />
+              <Events />
+              <Eventize />
+              <Sponser />
+              <Articles />
+              <Location />
+              <Event />
+            </>
+          } />
+
+
+
+          <Route path="/product" element={<Products />} />
+          <Route path="/" element={<Products />} />
+          <Route path="/product/:id" element={<ProductDescription />} />
+
+        </Routes>
+        <Footer />
+
+      </Router>
     </div>
   );
 }

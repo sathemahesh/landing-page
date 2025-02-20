@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.png'
-
+import { Link } from "react-router-dom";
 const Header = () => {
     return (
         <div>
@@ -31,7 +31,7 @@ const Header = () => {
             </style>
 
             <nav className="navbar navbar-expand-lg background_colour">
-                <div className="container">
+                <div className="container" >
                     <a className="navbar-brand" href="#">
                         <img src={logo} alt="Logo" />
                     </a>
@@ -41,7 +41,7 @@ const Header = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                <a className="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="#">About</a>
@@ -51,6 +51,11 @@ const Header = () => {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="#">Services</a>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link active" to="/product">
+                                   products
+                                </Link>
                             </li>
                         </ul>
 
