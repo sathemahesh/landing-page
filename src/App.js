@@ -18,6 +18,7 @@ import Articles from './components/Articles';
 import Location from './components/Location';
 import Footer from './components/Footer';
 import Products from './components/Products'
+import News from './components/News'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './components/Header'
 import ProductDescription from './components/ProductDescription';
@@ -45,7 +46,7 @@ function App() {
           } />
 
 
-
+          <Route path="/news" element={< News />} />
           <Route path="/product" element={<Products />} />
           <Route path="/" element={<Products />} />
           <Route path="/product/:id" element={<ProductDescription />} />

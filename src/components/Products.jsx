@@ -12,7 +12,7 @@ import product6 from '../assets/product6.png';
 function Products() {
   const [products, setProducts] = useState([]);
 
- 
+
   useEffect(() => {
     setProducts(Data);
   }, []);
@@ -36,18 +36,19 @@ function Products() {
       <div className="container mt-5">
         <div className="row">
           {/* Main Content */}
-          <div className="col-12 col-md-8">
+          <div className="col-12 col-md-8 medium_screen">
             <div className="row">
               {products.map((product, index) => (
                 <div className="col-12 col-md-6 mb-3" key={index}>
                   <div className="card">
                     <img src={require(`../assets/${product.image}`)} className="card-img-top" alt={product.name} />
                     <div className="card-body">
-                      <Link to={`/product/${product.id}`}>
+                      <Link to={`/product/${product.id}`} style={{ textDecoration: 'none' }}>
                         <h5 className="card-title" style={{ color: "#707070", cursor: 'pointer' }}>
                           {product.name}
                         </h5>
                       </Link>
+
                       <p className="price1-style">
                         {product.discounted_price ? (
                           <>
@@ -60,7 +61,7 @@ function Products() {
                           <span className='price-style'>${product.price}</span>
                         )}
                       </p>
-                      <button className="btn btn-danger">ADD TO Cart</button>
+                      <button className="btn btn-danger nir-btn">ADD TO Cart</button>
                     </div>
                   </div>
                 </div>
@@ -69,14 +70,15 @@ function Products() {
           </div>
 
           {/* Right Side Content */}
-          <div className="col-12 col-md-4 mt-4 mt-md-0">
-            <input className="search-bar" type="text" placeholder="search here" />
-            <button className="bg-danger btn btn-danger">Search</button>
+          <div className="col-12 col-lg-4 mt-4 mt-md-0  ">
+            <input className="search-bar" type="text" placeholder="search here" style={{ width: '50%' }} />
 
-            <div className="col mt-5">
-              <h3>Product Gallery</h3>
-              <div className="row ms-1">
-                <div className="col-6 col-md-5 mb-3">
+            <button className=" nir-btn">Search</button>
+
+            <div className="col mt-5 border  bg-light">
+              <h3 className=' ms-5 mb-4 mt-3 text_style_medium' style={{ color: " #333369" }}>Product Gallery</h3>
+              <div className="row ms-5 ">
+                <div className="col-6 col-md-5 mb-3 ">
                   <img src={product1} alt="product1" style={{ height: "112px" }} />
                 </div>
                 <div className="col-6 col-md-5 mb-3">
@@ -97,45 +99,45 @@ function Products() {
               </div>
             </div>
 
-            <div className="col mt-5">
-              <h3>Recent Products</h3>
+            <div className="col mt-5 border">
+              <h3 className=' ms-3 mb-4 mt-2 text_style_medium' style={{ color: " #333369" }}>Recent Products</h3>
               <div className="ms-3">
-                <div className="d-flex align-items-center mb-2">
-                  <img src={product6} alt="product6" style={{ width: '30%' }} />
+                <div className="d-flex align-items-center mb-2 border bg-light ">
+                  <img src={product6} alt="product6" style={{ width: '30%', marginBottom: 0 }} />
                   <p className="p-style">Yellow Sofa Set</p>
                 </div>
-                <div className="d-flex align-items-center mb-2">
-                  <img src={product4} alt="product4" style={{ width: '30%' }} />
+                <div className="d-flex align-items-center mb-2 border bg-light ">
+                  <img src={product4} alt="product4" style={{ width: '30%', marginBottom: 0 }} />
                   <p className="p-style">Leather Bag</p>
                 </div>
-                <div className="d-flex align-items-center mb-2">
-                  <img src={product1} alt="product1" style={{ width: '30%' }} />
+                <div className="d-flex align-items-center mb-2 border p-0">
+                  <img src={product1} alt="product1" style={{ width: '30%', marginBottom: 0 }} />
                   <p className="p-style">Bamboo Bucket</p>
                 </div>
-                <div className="d-flex align-items-center mb-2">
-                  <img src={product3} alt="product3" style={{ width: '30%' }} />
+                <div className="d-flex align-items-center mb-2 border bg-light ">
+                  <img src={product3} alt="product3" style={{ width: '30%', marginBottom: 0 }} />
                   <p className="p-style">Lewis Tshirt</p>
                 </div>
               </div>
             </div>
 
-            <div className="row mt-5">
-              <div className="col">
-                <h3>Social Media</h3>
+            <div className="row mt-5 ms-2">
+              <div className="col border bg-light ">
+                <h3 className=' mb-3 mt-2  text_style_medium' style={{ color: " #333369" }}>Social Media</h3>
                 <div className="row">
                   <div className="col-6 mb-2">
-                    <button className="w-100 bg-danger btn btn-danger">Facebook</button>
+                    <button className="w-100 social-media">Facebook</button>
                   </div>
                   <div className="col-6 mb-2">
-                    <button className="w-100 bg-danger btn btn-danger">Twitter</button>
+                    <button className="w-100 social-media">Twitter</button>
                   </div>
                 </div>
                 <div className="row">
                   <div className="col-6 mb-2">
-                    <button className="w-100 bg-danger btn btn-danger">Instagram</button>
+                    <button className="w-100 social-media">Instagram</button>
                   </div>
                   <div className="col-6 mb-2">
-                    <button className="w-100 bg-danger btn btn-danger">LinkedIn</button>
+                    <button className="w-100  social-media">LinkedIn</button>
                   </div>
                 </div>
               </div>

@@ -41,14 +41,14 @@
     padding: 15px 25px;
     text-transform: capitalize;
     transition: all 0.5s ease-in-out;
-    background: #F8669E;
+    background: #eb367b;
     color: #fff;
   
     border-radius: 0;
     border: none;
     box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.1);
     overflow: hidden;
-    display: flex;
+ 
 }
 
 
@@ -84,4 +84,36 @@
 {
     border: 2px solid #ede8e8;
     background: #FFFFFF;
+}
+
+.ms-para
+{
+    text-align: justify;
+}
+
+
+@media(max-width: 768px)
+{
+    .ms-heading1
+    {
+        text-align: center;
+    }
+
+    .ms-btn_style
+    {
+      
+       font-size: 16px;
+    padding: 15px 25px;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out;
+    background: #F8669E;
+    color: #fff;
+  
+    border-radius: 0;
+    border: none;
+    box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+     
+    
+    }
 }

@@ -26,6 +26,7 @@ h1{
 
 .search-bar:hover {
   box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+  
 }
 
 .p-style{
@@ -43,4 +44,60 @@ h1{
     font-size: 20px;
     text-align: line-through;
     margin-right: 10px;
+}
+
+.search-bar {
+    height: 50px; /* Match the button height */
+    padding: 0 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-right: none; /* Remove right border to blend with button */
+    border-radius: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.nir-btn {
+    height: 50px; /* Match the input height */
+    padding: 0 25px;
+    border-radius: 0;
+}
+
+
+.social-media {
+    font-size: 16px;
+    padding: 15px 25px;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out;
+    background: #F8669E;
+    color: #fff;
+  
+    border-radius: 0;
+    border: none;
+    box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+ 
+}
+
+
+
+@media(max-width: 1010px){
+    .medium_screen
+    {
+        margin: auto;
+    }
+
+    .text_style_medium
+    {
+        text-align: center;
+    }
+}
+
+@media(min-width:1200px)
+{
+    .text_style_medium
+
+    {
+        text-align: left;
+    }
 }

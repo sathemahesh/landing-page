@@ -17,15 +17,23 @@ const Header = () => {
                     margin-left: auto;
                   }
                   .buy-ticket-btn {
-                    background-color: #707070;
-                    color: white;
-                    padding: 8px 16px;
-                    border-radius: 4px;
-                    text-decoration: none;
-                    font-weight: bold;
+                       position: relative;
+    z-index: 1;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 25px;
+    text-transform: capitalize;
+    transition: allease-in-out 0.5s;
+    background: #F8669E;
+    color: #fff;
+    display: inline-block;
+    border-radius: 0px;
+    border: none;
+    box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
                   }
                   .buy-ticket-btn:hover {
-                    background-color: #5c5c5c;
+                    background-color:rgb(114, 126, 161);
                   }
                 `}
             </style>
@@ -50,11 +58,14 @@ const Header = () => {
                                 <a className="nav-link active" aria-current="page" href="#">Contact</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Services</a>
+                                <Link className="nav-link active" to="/news">
+                                    News
+                                </Link>
+
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link active" to="/product">
-                                   products
+                                    products
                                 </Link>
                             </li>
                         </ul>
