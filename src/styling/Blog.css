@@ -1,0 +1,42 @@
+
+
+ .blog-thumb img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.blog-wrapper_style
+{
+    border: 1px solid #7070702b;
+}
+
+
+input:focus-visible {
+  outline: none;
+  
+}
+
+.input_style {
+    
+    width:100%
+}
+
+
+@media(max-width:"992px")
+{
+    .right_col
+    {
+       margin:auto;
+    }
+
+
+    .input_style1 {
+    padding: 8px;
+    margin: 0;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+}

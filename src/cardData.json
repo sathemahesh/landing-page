@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "image": "blog1.jpg",
+    "title": "How To Optimize Your Blog For High Ranking",
+    "subtitle": " CONTINUE READING ",
+     "paragraph": "Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris."
+  },
+
+  {
+    "id": 2,
+    "image": "blog2.jpg",
+    "title": "How To Optimize Your Blog For High Ranking",
+    "subtitle": " CONTINUE READING ",
+    "paragraph": "Lorem2 ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris."
+  },
+
+  {
+    "id": 3,
+    "image": "blog3.jpg",
+    "title": "How To Optimize Your Blog For High Ranking",
+    "subtitle": "CONTINUE READING  ",
+
+    "paragraph": "Lorem3 ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris."
+  },
+
+  {
+    "id": 4,
+    "image": "blog4.jpg",
+    "title": "How To Optimize Your Blog For High Ranking",
+    "subtitle": "CONTINUE READING  ",
+
+    "paragraph": "Lorem4 ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris."
+  },
+
+  {
+    "id": 5,
+    "image": "blog5.jpg",
+    "title": "How To Optimize Your Blog For High Ranking",
+    "subtitle": " CONTINUE READING ",
+
+    "paragraph": "Lorem4 ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris."
+  },
+
+  {
+    "id": 6,
+    "image": "blog6.jpg",
+    "title": "How To Optimize Your Blog For High Ranking",
+    "subtitle": " CONTINUE READING  ",
+
+    "paragraph": "Lorem4 ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris."
+  }
+]

@@ -22,6 +22,8 @@ import News from './components/News'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './components/Header'
 import ProductDescription from './components/ProductDescription';
+import Blog_description from './components/Blog_description';
+
 function App() {
   return (
     <div className="App">
@@ -50,6 +52,8 @@ function App() {
           <Route path="/product" element={<Products />} />
           <Route path="/" element={<Products />} />
           <Route path="/product/:id" element={<ProductDescription />} />
+
+          <Route path="/Blog_description/:id" element={<Blog_description />} />
 
         </Routes>
         <Footer />

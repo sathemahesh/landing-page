@@ -62,9 +62,9 @@ function ProductDescription() {
                         />
                     </div>
                 </div>
-                <div className="row mt-5 mb-4" style ={{display:"flex",justifyContent:"space-between"}}>
+                <div className="row mt-5 mb-4" style={{ display: "flex", justifyContent: "space-between" }}>
                     {/* Description Section */}
-                    <div className="col-12 col-lg-8  mt-5 border_style1" style ={{height:"fit-content", maxWidth:"850px"}}>
+                    <div className="col-12 col-lg-8  mt-5 border_style1" style={{ height: "fit-content", maxWidth: "850px" }}>
                         <h4 className='desc ms-2'>description | review</h4>
                         <h3 className='text-start desc'> Description </h3>
                         <p className='text-start   ms-para'>
@@ -72,15 +72,15 @@ function ProductDescription() {
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla maiores itaque voluptas esse quis porro officiis laborum voluptatibus natus a at velit minus magni hic, tempora laboriosam cumque amet numquam.
                         </p>
 
-                      
 
-                       
+
+
                     </div>
 
                     {/* Recent Products Section */}
                     <div className="col-12 col-lg-4 mt-4 mt-lg-0  border-white bg-light ">
                         <div className="col   mb-2"><h4 className="rec text-center text-lg-start ms-4">Recent Products</h4></div>
-                       
+
 
                         <div className="row mb-3 align-items-center gap-0">
                             <div className="col-4 pe-0 ">

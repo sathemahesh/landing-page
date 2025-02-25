@@ -71,9 +71,17 @@ function Products() {
 
           {/* Right Side Content */}
           <div className="col-12 col-lg-4 mt-4 mt-md-0  ">
-            <input className="search-bar" type="text" placeholder="search here" style={{ width: '50%' }} />
-
-            <button className=" nir-btn">Search</button>
+            <div className="row ">
+              <div className="col d-flex align-items-center">
+                <input
+                  className="form-control input_box"
+                  type="text"
+                  placeholder="Search here"
+                  style={{ width: '100%', marginRight: '-1px' }}
+                />
+                <button className="nir-btn btn btn-primary btn_style_search">Search</button>
+              </div>
+            </div>
 
             <div className="col mt-5 border  bg-light">
               <h3 className=' ms-5 mb-4 mt-3 text_style_medium' style={{ color: " #333369" }}>Product Gallery</h3>
@@ -121,9 +129,10 @@ function Products() {
               </div>
             </div>
 
-            <div className="row mt-5 ms-2">
-              <div className="col border bg-light ">
-                <h3 className=' mb-3 mt-2  text_style_medium' style={{ color: " #333369" }}>Social Media</h3>
+            <div className="col border mb-5 mt-5">
+
+              <div className="col border bg-light p-4 pt-3 ">
+                <h3 className='border mt-4   theme1  bg-white  text-start ms-1  ' style={{ padding: "16px", fontSize: "21px", marginBottom: "2rem" }}> Social Media</h3>
                 <div className="row">
                   <div className="col-6 mb-2">
                     <button className="w-100 social-media">Facebook</button>
