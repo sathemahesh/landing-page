@@ -81,4 +81,10 @@ img {
   }
 
 
-  
+  @media(max-width: 768px)
+  {
+      .card-style1
+      {
+         font-size: 21px;
+      }
+  }

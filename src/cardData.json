@@ -4,7 +4,8 @@
     "image": "blog1.jpg",
     "title": "How To Optimize Your Blog For High Ranking",
     "subtitle": " CONTINUE READING ",
-     "paragraph": "Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris."
+    "paragraph": "Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris.",
+    "buttonText": "E-commerce"
   },
 
   {
@@ -12,7 +13,8 @@
     "image": "blog2.jpg",
     "title": "How To Optimize Your Blog For High Ranking",
     "subtitle": " CONTINUE READING ",
-    "paragraph": "Lorem2 ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris."
+    "paragraph": "Lorem2 ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris.",
+    "buttonText": "Insperation"
   },
 
   {
@@ -21,7 +23,8 @@
     "title": "How To Optimize Your Blog For High Ranking",
     "subtitle": "CONTINUE READING  ",
 
-    "paragraph": "Lorem3 ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris."
+    "paragraph": "Lorem3 ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris.",
+    "buttonText": "Public"
   },
 
   {
@@ -30,7 +33,8 @@
     "title": "How To Optimize Your Blog For High Ranking",
     "subtitle": "CONTINUE READING  ",
 
-    "paragraph": "Lorem4 ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris."
+    "paragraph": "Lorem4 ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris.",
+    "buttonText": " Blog"
   },
 
   {
@@ -39,7 +43,8 @@
     "title": "How To Optimize Your Blog For High Ranking",
     "subtitle": " CONTINUE READING ",
 
-    "paragraph": "Lorem4 ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris."
+    "paragraph": "Lorem4 ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris.",
+    "buttonText": "E-commerce"
   },
 
   {
@@ -48,6 +53,7 @@
     "title": "How To Optimize Your Blog For High Ranking",
     "subtitle": " CONTINUE READING  ",
 
-    "paragraph": "Lorem4 ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris."
+    "paragraph": "ddd Lorem4 ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris.",
+    "buttonText": "E-commerce"
   }
 ]

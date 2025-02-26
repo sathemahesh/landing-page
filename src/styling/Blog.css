@@ -23,11 +23,11 @@ input:focus-visible {
 }
 
 
-@media(max-width:"992px")
+@media(max-width:992px)
 {
     .right_col
     {
-       margin:auto;
+       width: 100%;
     }
 
 

@@ -16,7 +16,7 @@ function Counter() {
           <div key={index} className="col-lg-3 col-md-6 col-sm-6 mb-4">
             <div className="counter-containt">
               <h2 className="mb-0 " style={{ fontSize: "56px" }}>{item.count}</h2>
-              <span className="m-0 d-flex" style={{ fontSize: "16px" }}>{item.label}</span>
+              <span className="m-0  responsive-span " style={{ fontSize: "16px" }}>{item.label}</span>
             </div>
           </div>
         ))}

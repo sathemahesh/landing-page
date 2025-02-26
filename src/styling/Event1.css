@@ -8,3 +8,18 @@
 {
      color:#707070;
 }
+
+
+@media(max-width: 768px)
+{
+    .h1-style
+    {
+        font-size: 21px;
+    }
+
+    .h1-colour
+{
+     color:#707070;
+     font-size: 21px;
+}
+}

@@ -18,3 +18,13 @@ font_style1
     color: #333369;
     line-height: 1.22em;
 }
+.responsive-span {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 767.98px) { /* Target small devices */
+    .responsive-span {
+        display: block;
+    }
+}

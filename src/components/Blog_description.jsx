@@ -22,7 +22,7 @@ import blog3 from '../assets/blog3.jpg'
 import blog4 from '../assets/blog4.jpg'
 
 import cards from '../cardData.json';
-
+import { TiTick } from "react-icons/ti";
 const Blog_description = () => {
 
     const { id } = useParams();
@@ -39,6 +39,18 @@ const Blog_description = () => {
         color: 'white',
         padding: '20px',
     };
+
+
+    const items = [
+        "All",
+        "Online Ticketing",
+        "Conference",
+        "Marketing Events",
+        "Optimization",
+        "SEO Conference",
+        "Leadership",
+        "Digital Marketing"
+    ];
     return (
 
         <div className="main_container">
@@ -59,7 +71,7 @@ const Blog_description = () => {
                                     src={require(`../assets/${cardData.image}`)}
                                     alt={cardData.name}
                                     className="w-100 d-block"
-                                   
+
                                 />
 
 
@@ -81,7 +93,7 @@ const Blog_description = () => {
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-10 mb-2">
-                                                    <h5 className="mb-1">Team World</h5>
+                                                    <h5 className="mb-1" style={{ color: "#333369" }}>Team World</h5>
                                                     <p className="ms-2" style={{ fontSize: "16px", fontFamily: " Poppins,sans-serif" }}>
                                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sceler neque in euismod. Nam vitae urnasodales neque in faucibus.
                                                     </p>
@@ -96,12 +108,13 @@ const Blog_description = () => {
 
                         <div className="row mt-4  mb-0">
 
-                            <div className="  mb-4 text-center text-lg-start  ">
+                            <div className="mb-4 text-center text-lg-start">
                                 <h2 className="text-center text-lg-start">Leave A Reply</h2>
-                                <p className="text-center text-lg-start" style={{ fontSize: "16px", fontFamily: " Poppins,sans-serif" }}>Your email address will not be published. Required fields are marked *</p>
+                                <p className="text-center text-lg-start" style={{ fontSize: "16px", fontFamily: "Poppins, sans-serif" }}>
+                                    Your email address will not be published. Required fields are marked *
+                                </p>
 
                                 <form>
-
                                     <div className="form-group mb-2">
                                         <label>Comment*</label>
                                     </div>
@@ -109,46 +122,41 @@ const Blog_description = () => {
                                         <textarea className="form-control" rows="5"></textarea>
                                     </div>
 
-
                                     <div className="form-group mb-2">
                                         <label>Name*</label>
                                     </div>
                                     <div className="form-group mb-2">
-                                        <input className='input_style   ' type="text" placeholder="" />
+                                        <input className="input_style" type="text" placeholder="" />
                                     </div>
-
 
                                     <div className="form-group mb-2">
-                                        <label> Email*</label>
+                                        <label>Email*</label>
                                     </div>
-                                    <div className="form-group  mb-2">
-                                        <input className='input_style ' type="email" placeholder="" />
+                                    <div className="form-group mb-2">
+                                        <input className="input_style" type="email" placeholder="" />
                                     </div>
-
 
                                     <div className="form-group mb-2">
-                                        <label> Website*</label>
+                                        <label>Website*</label>
                                     </div>
-                                    <div className="form-group  mb-2">
-                                        <input className='input_style ' type="text" placeholder="" />
+                                    <div className="form-group mb-2">
+                                        <input className="input_style" type="text" placeholder="" />
                                     </div>
 
                                     <div className="col">
                                         <p className="mb-0">
                                             <input name="" type="checkbox" value="yes" />
-                                            <div className='' style={{ fontSize: "16px", fontFamily: " Poppins,sans-serif" }}>
-                                                <label>Save my name, email, and website in this browser for the next time I comment.</label>
-                                            </div>
                                         </p>
+                                        <div style={{ fontSize: "16px", fontFamily: "Poppins, sans-serif" }}>
+                                            <label>Save my name, email, and website in this browser for the next time I comment.</label>
+                                        </div>
 
-                                        <div className="form-btn   mb-2">
+                                        <div className="form-btn mb-2">
                                             <button type="submit" className="nir-btn mt-2">Post Comment</button>
                                         </div>
                                     </div>
                                 </form>
                             </div>
-
-
                         </div>
 
 
@@ -156,16 +164,16 @@ const Blog_description = () => {
 
                         <div className="row ">
                             <div className="col ">
-                                <h4 className="mb-4 text-center text-lg-start">Showing 16 verified guest comments</h4>
+                                <h4 className="mb-4 text-center text-lg-start" style={{ color: "#333369" }}>Showing 16 verified guest comments</h4>
                                 <div className="comment-image mt-2 d-flex mb-3  ">
                                     <img src={image1_author} alt="image" style={{ height: "37.55px ", width: "41.72" }} />
                                     <div className="comment-content  border  text-start ms-4" style={{ background: " #F7F7F7" }}>
                                         <div className="row">
                                             <div className="col ms-4">
-                                                <h4 className="mb-1 mt-3">Soldman Kell</h4>
+                                                <h4 className="mb-1 mt-3" style={{ color: "#333369" }}>Soldman Kell</h4>
                                             </div>
                                             <div className="col mt-3  text-end">
-                                                <p className="comment-date me-4">January 12, 2021</p>
+                                                <p className="comment-date me-4" style={{ fontSize: "14px" }}>April 25, 2023 at 10:46 am</p>
                                             </div>
                                         </div>
 
@@ -213,10 +221,10 @@ const Blog_description = () => {
                                     <div className="comment-content  border  text-start ms-4" style={{ background: " #F7F7F7" }}>
                                         <div className="row">
                                             <div className="col ms-4">
-                                                <h4 className="mb-1 mt-3">Burson Lesson</h4>
+                                                <h4 className="mb-1 mt-3" style={{ color: "#333369" }}>Burson Lesson</h4>
                                             </div>
-                                            <div className="col mt-4  text-end">
-                                                <p className="comment-date me-3 mt-3 ">January 12, 2021</p>
+                                            <div className="col mt-3  text-end">
+                                                <p className="comment-date me-4" style={{ fontSize: "14px" }}>April 25, 2023 at 10:46 am</p>
                                             </div>
                                         </div>
 
@@ -272,20 +280,10 @@ const Blog_description = () => {
                                     </div>
                                 </a>
                             </div>
-
-
                         </div>
-
-
-
-
-
                     </div>
 
-
-
-
-                    <div className="col-12 col-md-8 col-lg-4  " style={{ margin: "auto" }}>
+                    <div className="col-12 col-md-8 col-lg-4   right_col ">
 
 
                         <div className="row ">
@@ -296,7 +294,8 @@ const Blog_description = () => {
                                     placeholder="Search here"
                                     style={{ width: '100%', marginRight: '-1px' }}
                                 />
-                                <button className="nir-btn btn btn-primary btn_style_search">Search</button>
+                                <div className=''><button className="nir-btn btn btn-primary btn_style_search">Search</button></div>
+                                {/* <button className="nir-btn btn btn-primary btn_style_search">Search</button> */}
                             </div>
                         </div>
 
@@ -324,21 +323,17 @@ const Blog_description = () => {
 
                         </div>
 
-
+                        {/*  All categories  */}
 
                         <div className="col mt-5 border mb-5 p-4 " style={{ backgroundColor: "#F7F7F7" }}>
 
                             <h3 className=' border mt-4 theme1 bg-white  text-start ms-3 ' style={{ padding: "10px" }}> All Categories</h3>
-
-                            <div className="col ">
-                                <h4 className="ms-all ">  All</h4>
-                                <h4 className="ms-all "> online tickting </h4>
-                                <h4 className="ms-all ">  Conference</h4>
-                                <h4 className="ms-all ">  Marketing Events</h4>
-                                <h4 className="ms-all ">  optimazition</h4>
-                                <h4 className="ms-all ">  SEO Conference</h4>
-                                <h4 className="ms-all ">  Leadership</h4>
-                                <h4 className="ms-all ">  Digital Markiting</h4>
+                            <div className="col">
+                                {items.map((item, index) => (
+                                    <h4 key={index} className="ms-all">
+                                        <TiTick className='fs-2 me-2' /> {item}
+                                    </h4>
+                                ))}
                             </div>
 
 

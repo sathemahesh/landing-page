@@ -9,10 +9,10 @@ import { FaTwitter } from "react-icons/fa6";
 
 import blog1 from '../assets/blog1.jpg'
 import blog2 from '../assets/blog2.jpg'
-import blog3 from '../assets/blog3.jpg' 
+import blog3 from '../assets/blog3.jpg'
 import blog4 from '../assets/blog4.jpg'
-import  cardData from '../cardData.json';
-
+import cardData from '../cardData.json';
+import { TiTick } from "react-icons/ti";
 import { Link } from 'react-router-dom';
 
 function News() {
@@ -26,6 +26,17 @@ function News() {
     };
 
 
+    const items = [
+        "All",
+        "Online Ticketing",
+        "Conference",
+        "Marketing Events",
+        "Optimization",
+        "SEO Conference",
+        "Leadership",
+        "Digital Marketing"
+    ];
+
     return (
         <div className="main_container">
 
@@ -38,12 +49,29 @@ function News() {
 
             <div className="container">
                 <div className="row mt-5">
-                    <div className="col-12 col-md-8 col-lg-8  ">
-                        <div className="row first_card ms-2">
+                    <div className="  col-lg-8  ">
+                        <div className="row first_card ">
                             {cardData.map((card) => (
                                 <div className="col-12 col-md-6 mb-3" key={card.id}>
                                     <div className="card ">
                                         <img src={require(`../assets/${card.image}`)} className="card-img-top" alt={card.name} />
+
+                                        <button
+                                            style={{
+                                                position: 'absolute',
+                                                top: '10px',
+                                                right: '10px',
+                                                background: '#F8669E',
+                                                color: '#fff',
+                                                border: 'none',
+                                                padding: '5px 10px',
+                                                borderRadius: '5px',
+                                                cursor: 'pointer'
+                                            }}
+                                        >
+                                            {card.buttonText}
+                                        </button>
+
                                         <div className="card-body">
                                             <h4 className="card-title mt-0 heading_card">
                                                 <Link to={`/blog_description/${card.id}`} className="text-decoration-none  heading_card">{card.title}</Link>
@@ -59,7 +87,7 @@ function News() {
                         </div>
                     </div>
 
-                    <div className="col  col-md-6  col-lg-4   medium_style  first_card " >
+                    <div className="col    col-lg-4   medium_style  first_card " >
 
                         <div className="row ">
                             <div className="col d-flex align-items-center">
@@ -76,7 +104,7 @@ function News() {
 
 
                         <div className="col mt-5 ">
-                            <div className="card  p-5 pb-1 " style={{backgroundColor:"#F7F7F7", }}>
+                            <div className="card  p-5 pb-1 " style={{ backgroundColor: "#F7F7F7", }}>
                                 <img
                                     src={img7}
                                     className="card-img-top rounded-circle mx-auto d-block mt-3"
@@ -86,8 +114,8 @@ function News() {
 
 
                                 <div className="card-body ">
-                                    <h5 className="card-title theme1" style={{fontSize:"21px"}}>Hi, Jenny Loral</h5>
-                                    <p className="  theme" style={{fontSize:"16px"}}>
+                                    <h5 className="card-title theme1" style={{ fontSize: "21px" }}>Hi, Jenny Loral</h5>
+                                    <p className="  theme" style={{ fontSize: "16px" }}>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore magna aliqua.
                                     </p>
                                     <p className="p-3">
@@ -100,26 +128,23 @@ function News() {
 
 
                         {/* another column */}
-                        <div className="col mt-5 border mb-5 p-4 " style={{ backgroundColor: "#F7F7F7" }}>
+                        <div className="col mt-5 border mb-5 p-5 " style={{ backgroundColor: "#F7F7F7" }}>
 
-                            <h3 className=' border mt-4 theme1 bg-white  text-start ms-3 ' style={{padding:"10px"}}> All Categories</h3>
+                            <h3 className=' border mt-4 theme1 bg-white  text-start ms-3 ' style={{ padding: "10px" }}> All Categories</h3>
 
-                            <div className="col ">
-                                <h4 className="ms-all ">  All</h4>
-                                <h4 className="ms-all "> online tickting </h4>
-                                <h4 className="ms-all ">  Conference</h4>
-                                <h4 className="ms-all ">  Marketing Events</h4>
-                                <h4 className="ms-all ">  optimazition</h4>
-                                <h4 className="ms-all ">  SEO Conference</h4>
-                                <h4 className="ms-all ">  Leadership</h4>
-                                <h4 className="ms-all ">  Digital Markiting</h4>
+                            <div className="col">
+                                {items.map((item, index) => (
+                                    <h4 key={index} className="ms-all">
+                                        <TiTick className='fs-2 me-2' /> {item}
+                                    </h4>
+                                ))}
                             </div>
 
 
                         </div>
 
                         <div className="col  border mb-4  p-4 pt-3" style={{ backgroundColor: "#F7F7F7" }}>
-                            <h3 className='border mt-4   theme1  bg-white  text-start  ' style={{ padding: "10px",fontSize:"21px" }}> Recent Posts</h3>
+                            <h3 className='border mt-4   theme1  bg-white  text-start  ' style={{ padding: "10px", fontSize: "21px" }}> Recent Posts</h3>
                             <div className="row  border-bottom mb-3 ">
                                 <div className="col-4 mt-3 d-flex align-items-center">
                                     <img
@@ -187,9 +212,9 @@ function News() {
                         </div>
 
                         <div className="col border mb-5">
-                        
+
                             <div className="col border bg-light p-4 pt-3 ">
-                                <h3 className='border mt-4   theme1  bg-white  text-start ms-1  ' style={{ padding: "16px", fontSize: "21px", marginBottom:"2rem"}}> Social Media</h3>
+                                <h3 className='border mt-4   theme1  bg-white  text-start ms-1  ' style={{ padding: "16px", fontSize: "21px", marginBottom: "2rem" }}> Social Media</h3>
                                 <div className="row">
                                     <div className="col-6 mb-2">
                                         <button className="w-100 social-media">Facebook</button>

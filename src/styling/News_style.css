@@ -70,7 +70,7 @@
 }
 
 .icons_style {
-  border: 1px solid #ffffff;
+  border: 10px solid #ffffff;
 }
 
 .card-footer_style {
@@ -89,8 +89,18 @@
 
    .first_card
    {
-     width:150%;
+     /* width:150%; */
     
    }
 
+}
+
+@media (max-width: 767.98px) { /* Target mobile devices */
+    .first_card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh; /* Make it take the full viewport height */
+    }
 }

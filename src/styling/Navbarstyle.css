@@ -1,0 +1,43 @@
+.background_colour {
+    bottom: 0;
+    background: linear-gradient(to right, #3A3089, #C83F74);
+}
+
+.navbar-brand img {
+    height: 40px; /* Adjust the height of the logo */
+}
+
+.navbar-nav.ml-auto {
+    margin-left: auto;
+}
+
+.buy-ticket-btn {
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 25px;
+    text-transform: capitalize;
+    transition: all ease-in-out 0.5s;
+    background: #F8669E;
+    color: #fff;
+    display: inline-block;
+    border-radius: 0;
+    border: none;
+    box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+
+.buy-ticket-btn:hover {
+    background-color: rgb(114, 126, 161);
+}
+
+
+.nav-link-active1 .nav-link {
+    color: white !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link-active1 .nav-link:hover {
+    color: #F8669E !important; /* Change this to your preferred hover color */
+}

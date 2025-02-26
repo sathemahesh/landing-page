@@ -54,17 +54,33 @@ const Event = () => {
         </div>
 
         {/* Text and Button Section */}
-        <div className="col-lg-4 py-5 style1">
-          <h1 className="style2 style2 general" >Events - Why You Should Join The </h1>
-          <div className="" >
-            <h1 className=" style2  style2 general" style={{color:"#707070"}}>Events?</h1>
-          </div>
-          <p className="style2 general" >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ip suspendisse ultrices gravida. Risus commodo
-          </p>
-          <div className="button-container">
-            <button className="nir-btn btn-style3  style3">Join event</button>
-          </div>
+        <div className="col-lg-4 py-5 style1 ">
+           <div className="row">
+            <div className="col">
+              <div className="selector4" style={{ display: 'flex', justifyContent: 'center' }}>
+                <div className="row">
+                  <div className="col">
+                    <h2 className="ah-headline">
+                      <span>Why You Should </span>
+                    </h2>
+                    <div className="col d-flex">
+                      <b className="is-visible textcap text-start " style ={{ fontSize:"56px"}}> join the Events?</b>
+                    </div>
+
+                    <div className="col">
+                      <p className='text-start '> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate asperiores odit, porro laudantium mollitia quae eaque saepe! Mollitia odio sint officia quaerat ad perferendis saepe velit, earum at optio porro!</p>
+                    </div>
+                    <div className='d-flex '>
+                      <button className='nir-btn '> Join Event  </button>
+                    </div>
+                    
+                  </div>
+                </div>
+                
+               
+              </div>
+            </div>
+           </div>
         </div>
 
       </div>

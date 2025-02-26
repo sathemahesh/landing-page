@@ -107,10 +107,10 @@ function Products() {
               </div>
             </div>
 
-            <div className="col mt-5 border">
-              <h3 className=' ms-3 mb-4 mt-2 text_style_medium' style={{ color: " #333369" }}>Recent Products</h3>
+            <div className="col mt-5 border p-4 bg-light">
+              <h3 className=' ms-3 mb-4 mt-2 text_style_medium border p-3 ' style={{ color: " #333369", background:"white" }}>Recent Products</h3>
               <div className="ms-3">
-                <div className="d-flex align-items-center mb-2 border bg-light ">
+                <div className="d-flex align-items-center mb-2  border bg-light ">
                   <img src={product6} alt="product6" style={{ width: '30%', marginBottom: 0 }} />
                   <p className="p-style">Yellow Sofa Set</p>
                 </div>
