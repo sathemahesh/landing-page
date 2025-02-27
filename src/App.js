@@ -19,7 +19,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from "react-route
 import Header from './components/Header';
 import ProductDescription from './components/ProductDescription';
 import Blog_description from './components/Blog_description';
-
+import  Contact from  './components/Contact';
 function App() {
   return (
     <div className="App">
@@ -46,6 +46,7 @@ function App() {
           <Route path="/product" element={<Products />} />
           <Route path="/product/:id" element={<ProductDescription />} />
           <Route path="/Blog_description/:id" element={<Blog_description />} />
+          <Route path="/Contact" element={< Contact />} />
         </Routes>
         <Footer />
       </Router>
@@ -55,10 +56,13 @@ function App() {
 
 function DynamicHeader() {
   const location = useLocation();
-  const showHeaderOn = ['/news', '/product'];
+  const showHeaderOn = ['/news', '/product', '/Contact'];
 
 
-  const shouldShowHeader = showHeaderOn.some(path => location.pathname.startsWith(path));
+
+
+  const shouldShowHeader = showHeaderOn.some(path => location.pathname.toLowerCase().startsWith(path.toLowerCase()));
+
 
   return shouldShowHeader ? <Header /> : null;
 }
