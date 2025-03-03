@@ -18,7 +18,7 @@ const images = [
 
 function Knowladge() {
   return (
-    <div className="container">
+    <div className="container " style ={{marginTop:"7rem"}}>
       
       <div className="row card-style1 text-center">
         <div className="col">

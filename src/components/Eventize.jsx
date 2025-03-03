@@ -10,7 +10,7 @@ function Eventize() {
             <div className="container mb-5">
 
                 <div className="row text-center ms-3">
-                    <div className="col-12 text-center mb-4">
+                    <div className="col-12 text-center mb-4 " style ={{marginTop:"5rem"}}>
                         <h5 className="test">Our Testimonials</h5>
                         <h1 className="test1">What People’s Says About</h1>
                         <h1 className="even">Eventiz</h1>

@@ -19,18 +19,30 @@ function Sponser() {
         <div className="container mb-5">
             <div className="row text-center mb-4">
                 <div className="col">
-                    <h1 className="heading title_wrap" style={{ color: "#707070", fontFamily: "sans-serif" }}>Our Partners</h1>
-                    <h2 className="heading1 title_wrap" style={{ color: "#707070", fontFamily: "sans-serif" }}>Our Perfect Partners & Sponsors</h2>
+                    <h1 className="heading title_wrap" style={{ color: "#F8669E", fontFamily: "sans-serif", fontSize:"21px"}}>Our Partners</h1>
+                    <h2 className="heading1 title_wrap text-center" style={{ color: "#333369", fontFamily: "sans-serif",fontSize:"56px"}}>Our Perfect Partners &</h2>
+                    <h2 className="heading1 title_wrap text-center" style={{ color: "#F8669E", fontFamily: "sans-serif", fontSize: "56px" }}> Sponsors</h2>
                 </div>
             </div>
 
-            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 col-12 ">
-                {sponsors.map((sponsor, index) => (
-                    <div key={index} className="mb-4">
-                        <img src={sponsor.src} alt={sponsor.alt} className="img-fluid border w-100 ms-2" />
-                    </div>
-                ))}
+            <div className="container">
+                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+                    {sponsors.map((sponsor, index) => (
+                        <div key={index} className="col">
+                            <div className="border d-flex align-items-center justify-content-center p-2">
+                                <img
+                                    src={sponsor.src}
+                                    alt={sponsor.alt}
+                                    className="img-fluid w-100"
+                                    style={{ maxWidth: "250px" }}
+                                />
+                            </div>
+                        </div>
+                    ))}
+                </div>
             </div>
+
+
         </div>
     );
 }

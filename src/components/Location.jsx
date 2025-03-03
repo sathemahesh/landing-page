@@ -8,13 +8,13 @@ function Location() {
         <div className="container mb-5">
             <div className="row">
                 <div className="col-lg-6 col-md-12 text-center text-lg-start">
-                    <h4 className="text-center text-lg-start" style={{ color: "#707070", fontSize: "21px" }}>Reach Us</h4>
+                    <h4 className="text-center text-lg-start" style={{ color: "#F8669E", fontSize: "21px" }}>Reach Us</h4>
                     <h1 className="text-center text-lg-start heading-style" style={{ color: "#333369" }}>Get Direction To The Event</h1>
-                    <h1 className="text-center text-lg-start mb-5 heading-style" style={{ color: "#707070" }}>LOCATION</h1>
+                    <h1 className="text-center text-lg-start mb-5 heading-style" style={{ color: "#F8669E" }}>LOCATION</h1>
 
                     <div className="row border  d-flex align-items-stretch  align-self-center flex-st text-center text-md-start flex-column flex-md-row mb-3">
-                        <div className="col-12 col-md-2 d-flex justify-content-center align-items-center  bg-danger h-full log-style">
-                            <IoLocationSharp className="fs-1" />
+                        <div className="col-12 col-md-2 d-flex justify-content-center align-items-center  h-full log-style" style ={{backgroundColor:"#F8669E"}}>
+                            <IoLocationSharp className="fs-1" style={{ color: "white " }} />
                             
                         </div>
 
@@ -25,8 +25,8 @@ function Location() {
                     </div>
 
                     <div className="row border  d-flex align-items-stretch  align-self-center flex-st text-center text-md-start flex-column flex-md-row mb-3">
-                        <div className="col-12 col-md-2 d-flex justify-content-center align-items-center  bg-danger h-full log-style">
-                        <FaMapPin className="fs-1 " />
+                        <div className="col-12 col-md-2 d-flex justify-content-center align-items-center  h-full log-style" style={{ backgroundColor: "#F8669E" }}>
+                        <FaMapPin className="fs-1" style ={{color:"white "}}  />
 
                         </div>
                         <div className="col-12 col-md-10 py-2">

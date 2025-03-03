@@ -1,84 +1,143 @@
-import React from 'react';
-import '../styling/Plan.css';
-import price from '../assets/price.png';
+import React from "react";
+import "../styling/Plan.css";
+import price from "../assets/price.png";
 
 function Plans() {
   return (
-    <div className="container py-5">
-      <h2 className="mb-4" >
+    <div className="container py-5" style={{ marginTop: "7rem" }}>
+      <h2 className="text-center text-md-center text-lg-start">
         Explore Flexible Our Pricing
       </h2>
-      <div className="mb-4 text-start1 text-start2" style={{ fontWeight: "bold", fontSize: "2rem" }}>
-        <span >PLANS</span>
+
+      <div
+        className="text-center text-md-center text-lg-start mb-4"
+        style={{ fontWeight: "bold" }}
+      >
+        <span style={{ fontSize: "56px", color: "#F8669E" }}>PLANS</span>
       </div>
 
-      <div className="row d-flex justify-content-center">
-        {/* Basic Ticket */}
-        <div className="col-md-4 col-sm-12 col-12 mb-3">
-          <div className="card text-center shadow border-0" style={{ borderRadius: "15px", width: "100%", height: "100%" }}>
-            <div className="card-body text-colour">
-              <h4 className="card-title">Basic Ticket</h4>
-              <p className="text-muted">Standard Package</p>
-              <h3 className="fw-bold mb-3 text-colour">$39.99</h3>
-              <ul className="list-unstyled mb-4 text-colour" style={{ lineHeight: "2" }}>
-                <li>Second Balcony Seat</li>
-                <li>Snack & Softdrink</li>
-                <li>Certificates</li>
-                <li>Private Access</li>
-              </ul>
-              <button className="btn btn-pink btn-lg" style={{ backgroundColor: "#707070", color: "white" }}>
-                Purchase
-              </button>
-              <p className="mt-2 text-muted text-colour" style={{ fontSize: "0.85rem" }}>
-                *Please read our terms and conditions before ordering tickets
-              </p>
+      <div className="container">
+        <div className="row d-flex justify-content-center align-items-center flex-column flex-lg-row">
+          {/* Basic Ticket */}
+          <div className="col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+            <div
+              className="card text-center shadow border-0"
+              style={{ borderRadius: "15px", width: "100%", maxWidth: "350px" }}
+            >
+              <div className="text-colour p-5">
+                <h3 className="card-title ms_h3_style mb-0">Basic Ticket</h3>
+                <p className="text-muted">Standard Package</p>
+                <h3
+                  className="fw-bold mb-3 text-colour"
+                  style={{
+                    fontSize: "56px",
+                    fontFamily: "sans-serif",
+                    color: "#F8669E",
+                  }}
+                >
+                  $39.99
+                </h3>
+                <ul
+                  className="list-unstyled mb-4 text-colour"
+                  style={{ lineHeight: "2" }}
+                >
+                  <li className="pb-2 mb-2">Second Balcony Seat</li>
+                  <li className="pb-2 mb-2">Snack & Softdrink</li>
+                  <li className="pb-2 mb-2">Certificates</li>
+                  <li className="pb-2 mb-2">Private Access</li>
+                </ul>
+                <button
+                  className="nir-btn"
+                  style={{ backgroundColor: "#F8669E", color: "white" }}
+                >
+                  Purchase
+                </button>
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* Silver Ticket */}
-        <div className="col-md-4 col-sm-12 col-12 mb-3">
-          <div className="card text-center shadow border-0" style={{ backgroundColor: "#333369", color: "white", borderRadius: "15px", width: "100%", height: "100%" }}>
-            <div className="card-body text-light">
-              <h4 className="card-title text-light">Silver Ticket</h4>
-              <p className="text-light">Pro Package</p>
-              <h3 className="fw-bold mb-3 text-colour" style={{ color: "#707070" }}>$59.99</h3>
-              <ul className="list-unstyled mb-4 text-light" style={{ lineHeight: "2" }}>
-                <li>Second Balcony Seat</li>
-                <li>Snack & Softdrink</li>
-                <li>Certificates</li>
-                <li>Printed Materials</li>
-                <li>Private Access</li>
-              </ul>
-              <button className="btn btn-pink btn-lg" style={{ backgroundColor: "#ff007c", color: "white" }}>
-                Purchase
-              </button>
-              <p className="mt-2 text-light text-colour" style={{ fontSize: "0.85rem" }}>
-                *Please read our terms and conditions before ordering tickets
-              </p>
+          {/* Silver Ticket */}
+          <div className="col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+            <div
+              className="card text-center shadow border-0"
+              style={{
+                backgroundColor: "#333369",
+                color: "white",
+                borderRadius: "15px",
+                width: "100%",
+                maxWidth: "350px",
+              }}
+            >
+              <div className="text-light p-5">
+                <h4 className="card-title text-light ms_h3_style">
+                  Silver Ticket
+                </h4>
+                <p className="text-light">Pro Package</p>
+                <h3
+                  className="fw-bold mb-3 text-colour"
+                  style={{
+                    fontSize: "56px",
+                    fontFamily: "sans-serif",
+                    color: "#F8669E",
+                  }}
+                >
+                  $59.99
+                </h3>
+                <ul
+                  className="list-unstyled mb-4 text-light pb-2 mb-2"
+                  style={{ lineHeight: "2" }}
+                >
+                  <li className="pb-2 mb-2">Second Balcony Seat</li>
+                  <li className="pb-2 mb-2">Snack & Softdrink</li>
+                  <li className="pb-2 mb-2">Certificates</li>
+                  <li className="pb-2 mb-2">Printed Materials</li>
+                  <li className="pb-2 mb-2">Private Access</li>
+                </ul>
+                <button
+                  className="nir-btn"
+                  style={{ backgroundColor: "#F8669E", color: "white" }}
+                >
+                  Purchase
+                </button>
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* Gold Ticket */}
-        <div className="col-md-4 col-sm-12 col-12 mb-3">
-          <div className="card text-center shadow border-0" style={{ borderRadius: "15px", width: "100%", height: "100%" }}>
-            <div className="card-body">
-              <h4 className="card-title text-colour">Gold Ticket</h4>
-              <p className="text-muted">Enterprise Package</p>
-              <h3 className="text-colour fw-bold mb-3">$199.99</h3>
-              <ul className="list-unstyled mb-4 text-colour" style={{ lineHeight: "2" }}>
-                <li>Second Balcony Seat</li>
-                <li>Snack & Softdrink</li>
-                <li>Certificates</li>
-                <li>Private Access</li>
-              </ul>
-              <button className="btn btn-pink btn-lg" style={{ backgroundColor: "#ff007c", color: "white" }}>
-                Purchase
-              </button>
-              <p className="mt-2 text-muted" style={{ fontSize: "0.85rem" }}>
-                *Please read our terms and conditions before ordering tickets
-              </p>
+          {/* Gold Ticket */}
+          <div className="col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+            <div
+              className="card text-center shadow border-0"
+              style={{ borderRadius: "15px", width: "100%", maxWidth: "350px" }}
+            >
+              <div className="p-5">
+                <h4 className="card-title text-colour">Gold Ticket</h4>
+                <p className="text-muted">Enterprise Package</p>
+                <h3
+                  className="fw-bold mb-3 text-colour"
+                  style={{
+                    fontSize: "56px",
+                    fontFamily: "sans-serif",
+                    color: "#F8669E",
+                  }}
+                >
+                  $199.99
+                </h3>
+                <ul
+                  className="list-unstyled mb-4 text-colour"
+                  style={{ lineHeight: "2" }}
+                >
+                  <li className="pb-2 mb-2">Second Balcony Seat</li>
+                  <li className="pb-2 mb-2">Snack & Softdrink</li>
+                  <li className="pb-2 mb-2">Certificates</li>
+                  <li className="pb-2 mb-2">Private Access</li>
+                </ul>
+                <button
+                  className="nir-btn"
+                  style={{ backgroundColor: "#F8669E", color: "white" }}
+                >
+                  Purchase
+                </button>
+              </div>
             </div>
           </div>
         </div>

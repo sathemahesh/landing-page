@@ -31,7 +31,6 @@
   }
   
 
-  {/*   css  */}
 
 
 
@@ -52,9 +51,7 @@
 }
 
 /* Add more space between images in general */
-img {
-    margin-bottom: 15px; /* Adjust this value to your liking */
-  }
+
   
   /* If needed, adjust margin for the right-side image */
   img.right-image {

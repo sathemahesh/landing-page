@@ -32,6 +32,16 @@
     }
   }
   
+  .ms_h3_style
+  {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    text-transform: capitalize;
+   
+    color: #333369;
+    line-height: 1.22em;
+  }
 
 
 

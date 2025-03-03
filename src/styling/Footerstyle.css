@@ -1,10 +1,12 @@
-.text-style
-{
-    text-decoration: none;
-    text-align: left;
+footer {
+  font-size: 16px !important;
 }
 
-.footer-style
-{
-    margin-top: 100%;
+.text-style {
+  text-decoration: none;
+  text-align: left;
+}
+
+.footer-style {
+  margin-top: 100%;
 }

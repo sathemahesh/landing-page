@@ -10,13 +10,13 @@ const counterData = [
 
 function Counter() {
   return (
-    <div className="container mt-5 mb-5">
-      <div className="row text-center">
+    <div className="container mt-5 mb-5" >
+      <div className="row text-center" style={{ marginTop: "7rem" }}>
         {counterData.map((item, index) => (
           <div key={index} className="col-lg-3 col-md-6 col-sm-6 mb-4">
             <div className="counter-containt">
-              <h2 className="mb-0 " style={{ fontSize: "56px" }}>{item.count}</h2>
-              <span className="m-0  responsive-span " style={{ fontSize: "16px" }}>{item.label}</span>
+              <h2 className="mb-0  " style={{ fontSize: "56px" , textAlign:"center"}}>{item.count}</h2>
+              <span className="m-0   " style={{ fontSize: "16px" }}>{item.label}</span>
             </div>
           </div>
         ))}

@@ -3,15 +3,20 @@
     justify-content: center;
 } */
 
-.fild_name
-{
-    color: #707070;
-    font-family: 'Times New Roman', Times, serif;
+.fild_name {
+  color: #707070;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.fild_name:hover{
-    color: #333369;
-    font-family: 'Times New Roman', Times, serif;
+.fild_name:hover {
+  color: #333369;
+  font-family: "Times New Roman", Times, serif;
 }
 
+.form-control:focus {
+  box-shadow: none;
+}
 
+.input_box:hover {
+  border-color: blueviolet;
+}
